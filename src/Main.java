@@ -5,6 +5,9 @@ public class Main {
 	int result = increment(num);
         System.out.println(result);
 
+        result = decrease(num);
+        System.out.println(result);
+
 
 
 	    }
@@ -12,5 +15,8 @@ public class Main {
             return ++n;
         }
 
+        public static int decrease(int n) {
+            return --n;
+        }
 
 }
